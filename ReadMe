@@ -1,0 +1,28 @@
+Task: Write a program to design Vending Machine using your 'favourite language' with all possible tests.
+1.  Accepts coins of 1,5,10,25 Cents, i.e. penny, nickel, dime, and a quarter.
+2.  Allow user to select products Coke(25), Pepsi(35), Soda(45)
+3.  Allow user to take refund by cancelling the request.
+4. Return the selected product and remaining change if any.
+5. Allow reset operation for vending machine supplier.
+
+
+In this task, I used OOP part of the Java, for loops, if and switch statements.
+
+If my implementation of Java Vending Machine has the following classes ;
+
+Product Class:
+There is a constructor method in this class with three parameters(String name, int count, int price).
+Additionally, I used encapsulation in this class.
+
+ProductUnitTest Class:
+In this class, I created a product object and made a confirmation.
+
+Vending Machine Class:
+I created the methods that I used for accepts coins, select products, take refund etc.
+In this class, I  initialized the amount of the total product, and I calculated the price.
+
+VendingMAchineTest Class:
+In this class, I use the scanner class for taking input from the user.
+Unless the user wants to pass the next step, the machine accepts money from the user.
+If the user still has enough balance may buy the product.
+In this class, I also gave the list of the product and their prices.
